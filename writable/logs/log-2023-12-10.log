@@ -1,0 +1,335 @@
+WARNING - 2023-12-10 01:57:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 01:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 01:57:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+WARNING - 2023-12-10 02:00:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+CRITICAL - 2023-12-10 02:00:57 --> Undefined property: CodeIgniter\View\View::$security
+in APPPATH\Views\customer\list_js.php on line 99.
+ 1 APPPATH\Views\customer\list_js.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$security', 'C:\\wamp64_2\\www\\generique\\app\\Views\\customer\\list_js.php', 99)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2\\www\\generique\\app\\Views\\customer\\list_js.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('customer/list_js', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(24): view('customer/list_js')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+WARNING - 2023-12-10 02:23:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+CRITICAL - 2023-12-10 02:23:42 --> Undefined property: CodeIgniter\View\View::$security
+in APPPATH\Views\customer\list_js.php on line 99.
+ 1 APPPATH\Views\customer\list_js.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$security', 'C:\\wamp64_2\\www\\generique\\app\\Views\\customer\\list_js.php', 99)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2\\www\\generique\\app\\Views\\customer\\list_js.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('customer/list_js', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(24): view('customer/list_js')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+WARNING - 2023-12-10 04:21:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+CRITICAL - 2023-12-10 04:21:21 --> Undefined property: CodeIgniter\View\View::$security
+in APPPATH\Views\customer\list_js.php on line 99.
+ 1 APPPATH\Views\customer\list_js.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$security', 'C:\\wamp64_2\\www\\generique\\app\\Views\\customer\\list_js.php', 99)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2\\www\\generique\\app\\Views\\customer\\list_js.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('customer/list_js', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(24): view('customer/list_js')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+WARNING - 2023-12-10 04:22:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+CRITICAL - 2023-12-10 04:22:44 --> Undefined property: CodeIgniter\View\View::$security
+in APPPATH\Views\customer\list_js.php on line 99.
+ 1 APPPATH\Views\customer\list_js.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$security', 'C:\\wamp64_2\\www\\generique\\app\\Views\\customer\\list_js.php', 99)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2\\www\\generique\\app\\Views\\customer\\list_js.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('customer/list_js', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(24): view('customer/list_js')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+WARNING - 2023-12-10 04:22:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+CRITICAL - 2023-12-10 04:22:47 --> Undefined property: CodeIgniter\View\View::$security
+in APPPATH\Views\customer\list_js.php on line 99.
+ 1 APPPATH\Views\customer\list_js.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$security', 'C:\\wamp64_2\\www\\generique\\app\\Views\\customer\\list_js.php', 99)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2\\www\\generique\\app\\Views\\customer\\list_js.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('customer/list_js', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(24): view('customer/list_js')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+WARNING - 2023-12-10 04:22:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+CRITICAL - 2023-12-10 04:22:50 --> Undefined property: CodeIgniter\View\View::$security
+in APPPATH\Views\customer\list_js.php on line 99.
+ 1 APPPATH\Views\customer\list_js.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$security', 'C:\\wamp64_2\\www\\generique\\app\\Views\\customer\\list_js.php', 99)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\wamp64_2\\www\\generique\\app\\Views\\customer\\list_js.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('customer/list_js', [], true)
+ 5 APPPATH\Controllers\CustomerController.php(24): view('customer/list_js')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CustomerController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+WARNING - 2023-12-10 04:23:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:23:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+WARNING - 2023-12-10 04:25:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:26:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+WARNING - 2023-12-10 04:26:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:26:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:26:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:27:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:36:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:37:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+WARNING - 2023-12-10 04:37:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:37:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:38:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:38:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:38:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:38:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:38:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:39:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:39:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:39:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:39:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:39:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:39:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:39:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:39:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 04:39:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 04:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 07:48:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 07:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 07:48:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\generique\\public\\index.php')
+INFO - 2023-12-10 07:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 07:58:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\sport_shop\\public\\index.php')
+INFO - 2023-12-10 07:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 07:59:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\sport_shop\\public\\index.php')
+INFO - 2023-12-10 07:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-10 07:59:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\CustomerController::$customer is deprecated in APPPATH\Controllers\CustomerController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\CustomerController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\wamp64_2\\www\\sport_shop\\public\\index.php')
+INFO - 2023-12-10 07:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -77,7 +77,7 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 1. Download repo zip file from git.
 2. Unzip file and locate to your server directory
    (If you use wamp put in www or if you use xampp put in htdoc)
-3. Open your local database and create new database name `generique_development` and run `generique.sql`
+3. Open your local database and create new database name `sport_shop` and run `sport_shop.sql`
 4. Open folder Generique-master in your code editor
 5. Open new terminal and run `php spark serve`
 6. Open browser and type `localhost:8080` to start

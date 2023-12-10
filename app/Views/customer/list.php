@@ -34,8 +34,9 @@
 					</th>
 					<th>Name</th>
 					<th>Email</th>
-					<th>Address</th>
 					<th>Phone</th>
+					<th>Skillset</th>
+					<th>Hobby</th>
 					<th>Actions</th>
 				</tr>
 			</thead>
@@ -52,8 +53,9 @@
 							</td>
 							<td><?php echo $cust['name'] ?></td>
 							<td><?php echo $cust['email'] ?></td>
-							<td><?php echo $cust['address'] ?></td>
 							<td><?php echo $cust['no_phone'] ?></td>
+							<td><?php echo $cust['skillset'] ?></td>
+							<td><?php echo $cust['hobby'] ?></td>
 							<td>
 								<a href="#editCustomerModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
 								<a href="#deleteCustomerModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
@@ -92,8 +94,12 @@
 						<input type="email" class="form-control" name="cust_email" required>
 					</div>
 					<div class="form-group">
-						<label>Address</label>
-						<textarea class="form-control" name="cust_address" required></textarea>
+						<label>Skillset</label>
+						<textarea class="form-control" name="cust_skillset" required></textarea>
+					</div>
+					<div class="form-group">
+						<label>Hobby</label>
+						<textarea class="form-control update_hobby" name="cust_hobby" required></textarea>
 					</div>
 					<div class="form-group">
 						<label>Phone</label>
@@ -130,8 +136,12 @@
 						<input type="email" class="form-control update_email" name="cust_email" required>
 					</div>
 					<div class="form-group">
-						<label>Address</label>
-						<textarea class="form-control update_address" name="cust_address" required></textarea>
+						<label>Skillset</label>
+						<textarea class="form-control update_skillset" name="cust_skillset" required></textarea>
+					</div>
+					<div class="form-group">
+						<label>Hobby</label>
+						<textarea class="form-control update_hobby" name="cust_hobby" required></textarea>
 					</div>
 					<div class="form-group">
 						<label>Phone</label>

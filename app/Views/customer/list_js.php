@@ -10,7 +10,8 @@
                 $(".update_id").val(res.id);
                 $(".update_name").val(res.name);
                 $(".update_email").val(res.email);
-                $(".update_address").val(res.address);
+                $(".update_skillset").val(res.skillset);
+                $(".update_hobby").val(res.hobby);
                 $(".update_no_phone").val(res.no_phone);
             }
         });

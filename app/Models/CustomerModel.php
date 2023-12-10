@@ -10,7 +10,7 @@
         protected $useSoftDeletes   = false;
         protected $protectedFields  = true;
         protected $allowedFields    = [
-            'name', 'email', 'address', 'no_phone', 'soft_delete', 'created_at'
+            'name', 'email', 'no_phone', 'soft_delete', 'skillset', 'hobby', 'created_at'
         ];
 
         protected $useTimestamps    = false;

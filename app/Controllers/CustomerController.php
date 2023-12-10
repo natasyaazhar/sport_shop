@@ -31,8 +31,9 @@ class CustomerController extends BaseController
             $data = [            
                 'name' => $this->request->getPost('cust_name'),
                 'email' => $this->request->getPost('cust_email'),
-                'address' => $this->request->getPost('cust_address'),
-                'no_phone' => $this->request->getPost('cust_no_phone')
+                'no_phone' => $this->request->getPost('cust_no_phone'),
+                'skillset' => $this->request->getPost('cust_skillset'),
+                'hobby' => $this->request->getPost('cust_hobby')
             ];
     
             $this->customer->insert($data);
@@ -67,8 +68,9 @@ class CustomerController extends BaseController
             $data = [            
                 'name' => $this->request->getPost('cust_name'),
                 'email' => $this->request->getPost('cust_email'),
-                'address' => $this->request->getPost('cust_address'),
-                'no_phone' => $this->request->getPost('cust_no_phone')
+                'no_phone' => $this->request->getPost('cust_no_phone'),
+                'skillset' => $this->request->getPost('cust_skillset'),
+                'hobby' => $this->request->getPost('cust_hobby')
             ];
     
             $this->customer->update($id, $data);
